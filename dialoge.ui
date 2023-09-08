@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogE</class>
+ <widget class="QDialog" name="DialogE">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1235</width>
+    <height>729</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTabWidget" name="id">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>1061</width>
+     <height>621</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>4</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Ajouter Eleve</string>
+    </attribute>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>110</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>id</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>160</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Nom</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>210</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Prenom</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>260</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Age</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>310</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Adresse</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>410</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Classe</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>360</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>sexe</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="id_2">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>100</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="nomE">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>150</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="prenomE">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>200</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Age">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>250</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Adresse">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>300</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="classe">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>400</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBoxE">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>350</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ajouterE">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>190</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+border-color: rgb(197, 39, 68);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(225, 45, 78));
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(217, 29, 81, 255));
+selection-color: rgb(225, 22, 69);
+selection-background-color: rgb(225, 6, 57);</string>
+     </property>
+     <property name="text">
+      <string>Ajouter</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>-150</x>
+       <y>-40</y>
+       <width>1431</width>
+       <height>811</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../ATELIE~1/JOUETS~1.JPG</pixmap>
+     </property>
+    </widget>
+    <zorder>label_16</zorder>
+    <zorder>label</zorder>
+    <zorder>label_2</zorder>
+    <zorder>label_3</zorder>
+    <zorder>label_4</zorder>
+    <zorder>label_5</zorder>
+    <zorder>label_6</zorder>
+    <zorder>label_7</zorder>
+    <zorder>id_2</zorder>
+    <zorder>nomE</zorder>
+    <zorder>prenomE</zorder>
+    <zorder>Age</zorder>
+    <zorder>Adresse</zorder>
+    <zorder>classe</zorder>
+    <zorder>comboBoxE</zorder>
+    <zorder>ajouterE</zorder>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>afficher eleve</string>
+    </attribute>
+    <widget class="QTableView" name="tabeleve">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>40</y>
+       <width>811</width>
+       <height>521</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="afficherE">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>100</y>
+       <width>151</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+border-color: rgb(197, 39, 68);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(225, 45, 78));
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(217, 29, 81, 255));
+selection-color: rgb(225, 22, 69);
+selection-background-color: rgb(225, 6, 57);</string>
+     </property>
+     <property name="text">
+      <string>Afficher</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>1241</width>
+       <height>751</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../ATELIE~1/JOUETS~1.JPG</pixmap>
+     </property>
+    </widget>
+    <zorder>label_17</zorder>
+    <zorder>tabeleve</zorder>
+    <zorder>afficherE</zorder>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>modifier eleve</string>
+    </attribute>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>280</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Adresse</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>220</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Age</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>100</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Nom</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>160</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Prenom</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>340</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>sexe</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>400</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Classe</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>330</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ModifierE">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>180</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+border-color: rgb(197, 39, 68);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(225, 45, 78));
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(217, 29, 81, 255));
+selection-color: rgb(225, 22, 69);
+selection-background-color: rgb(225, 6, 57);
+</string>
+     </property>
+     <property name="text">
+      <string>Modifier</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ModNom">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>91</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>40</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>id</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ModId">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>30</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ModPrenom">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>150</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="modAge">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>210</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="modadresse">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>271</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="modClasse">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>390</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>-100</x>
+       <y>0</y>
+       <width>1251</width>
+       <height>611</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../ATELIE~1/JOUETS~1.JPG</pixmap>
+     </property>
+    </widget>
+    <zorder>label_18</zorder>
+    <zorder>label_8</zorder>
+    <zorder>label_9</zorder>
+    <zorder>label_10</zorder>
+    <zorder>label_11</zorder>
+    <zorder>label_12</zorder>
+    <zorder>label_13</zorder>
+    <zorder>comboBox_2</zorder>
+    <zorder>ModifierE</zorder>
+    <zorder>ModNom</zorder>
+    <zorder>label_14</zorder>
+    <zorder>ModId</zorder>
+    <zorder>ModPrenom</zorder>
+    <zorder>modAge</zorder>
+    <zorder>modadresse</zorder>
+    <zorder>modClasse</zorder>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>supprimer eleve</string>
+    </attribute>
+    <widget class="QLineEdit" name="suppID">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>240</y>
+       <width>211</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>240</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ID Eleve</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="supprimerE">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>240</y>
+       <width>201</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+border-color: rgb(197, 39, 68);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(225, 45, 78));
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(217, 29, 81, 255));
+selection-color: rgb(225, 22, 69);
+selection-background-color: rgb(225, 6, 57);
+</string>
+     </property>
+     <property name="text">
+      <string>supprimer</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_19">
+     <property name="geometry">
+      <rect>
+       <x>-110</x>
+       <y>-10</y>
+       <width>1161</width>
+       <height>701</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../ATELIE~1/JOUETS~1.JPG</pixmap>
+     </property>
+    </widget>
+    <zorder>label_19</zorder>
+    <zorder>suppID</zorder>
+    <zorder>label_15</zorder>
+    <zorder>supprimerE</zorder>
+   </widget>
+   <widget class="QWidget" name="tab_5">
+    <attribute name="title">
+     <string>recherche eleve</string>
+    </attribute>
+    <widget class="QTableView" name="tabrech">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>130</y>
+       <width>991</width>
+       <height>441</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_rech">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>50</y>
+       <width>201</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="recherche">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>50</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+border-color: rgb(197, 39, 68);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(225, 45, 78));
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(217, 29, 81, 255));
+selection-color: rgb(225, 22, 69);
+selection-background-color: rgb(225, 6, 57);</string>
+     </property>
+     <property name="text">
+      <string>recherche</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="triClasse">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>50</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+border-color: rgb(197, 39, 68);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(225, 45, 78));
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(217, 29, 81, 255));
+selection-color: rgb(225, 22, 69);
+selection-background-color: rgb(225, 6, 57);</string>
+     </property>
+     <property name="text">
+      <string>id</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="triAge">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>50</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+border-color: rgb(197, 39, 68);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(225, 45, 78));
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(217, 29, 81, 255));
+selection-color: rgb(225, 22, 69);
+selection-background-color: rgb(225, 6, 57);</string>
+     </property>
+     <property name="text">
+      <string>age</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="nom">
+     <property name="geometry">
+      <rect>
+       <x>810</x>
+       <y>50</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+border-color: rgb(197, 39, 68);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(225, 45, 78));
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(217, 29, 81, 255));
+selection-color: rgb(225, 22, 69);
+selection-background-color: rgb(225, 6, 57);
+</string>
+     </property>
+     <property name="text">
+      <string>Nom</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>1201</width>
+       <height>711</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../ATELIE~1/JOUETS~1.JPG</pixmap>
+     </property>
+    </widget>
+    <zorder>label_20</zorder>
+    <zorder>tabrech</zorder>
+    <zorder>le_rech</zorder>
+    <zorder>recherche</zorder>
+    <zorder>triClasse</zorder>
+    <zorder>triAge</zorder>
+    <zorder>nom</zorder>
+   </widget>
+   <widget class="QWidget" name="tab_6">
+    <attribute name="title">
+     <string>statistique</string>
+    </attribute>
+    <widget class="QPushButton" name="statAge">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>240</y>
+       <width>251</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+border-color: rgb(197, 39, 68);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(225, 45, 78));
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(217, 29, 81, 255));
+selection-color: rgb(225, 22, 69);
+selection-background-color: rgb(225, 6, 57);
+</string>
+     </property>
+     <property name="text">
+      <string>Statistique par Age </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_21">
+     <property name="geometry">
+      <rect>
+       <x>-125</x>
+       <y>-25</y>
+       <width>1171</width>
+       <height>781</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../ATELIE~1/JOUETS~1.JPG</pixmap>
+     </property>
+    </widget>
+    <zorder>label_21</zorder>
+    <zorder>statAge</zorder>
+   </widget>
+   <widget class="QWidget" name="tab_7">
+    <attribute name="title">
+     <string>fichier excel</string>
+    </attribute>
+    <widget class="QPushButton" name="excel">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>250</y>
+       <width>351</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 87 8pt &quot;Segoe UI Black&quot;;
+border-color: rgb(197, 39, 68);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(225, 45, 78));
+border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:1 rgba(217, 29, 81, 255));
+selection-color: rgb(225, 22, 69);
+selection-background-color: rgb(225, 6, 57);</string>
+     </property>
+     <property name="text">
+      <string>Excel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_22">
+     <property name="geometry">
+      <rect>
+       <x>-70</x>
+       <y>0</y>
+       <width>1121</width>
+       <height>731</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../ATELIE~1/JOUETS~1.JPG</pixmap>
+     </property>
+    </widget>
+    <zorder>label_22</zorder>
+    <zorder>excel</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
